@@ -6,4 +6,8 @@
     <bean id="hello" class="java.lang.String">
         <constructor-arg value="xml hello"></constructor-arg>
     </bean>
+
+
+    <bean id="whiteShip" class="abstract_factory.apply.ShipFactory">
+    </bean>
 </beans>

@@ -11,6 +11,5 @@ public class SpringExample {
         System.out.println("hello2.hashCode() = " + hello2.hashCode());
         System.out.println("hello.hashCode() = " + hello.hashCode());
         System.out.println(hello == hello2);
-
     }
 }
