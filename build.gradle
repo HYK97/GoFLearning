@@ -15,7 +15,7 @@ repositories {
 dependencies {
 // https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
     implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
-
+    implementation group: 'org.modelmapper', name: 'modelmapper', version: '2.3.8'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     compileOnly 'org.projectlombok:lombok'
     runtimeOnly 'com.h2database:h2'
