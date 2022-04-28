@@ -8,6 +8,6 @@
     </bean>
 
 
-    <bean id="whiteShip" class="abstract_factory.apply.ShipFactory">
+    <bean id="whiteShip" class="create.abstract_factory.apply.ShipFactory">
     </bean>
 </beans>
