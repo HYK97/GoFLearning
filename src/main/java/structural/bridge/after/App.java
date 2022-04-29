@@ -1,7 +1,5 @@
 package structural.bridge.after;
 
-import structural.bridge.before.Champion;
-
 public class App {
 
     public static void main(String[] args) {
