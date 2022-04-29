@@ -1,8 +1,6 @@
 package create.prototype.before;
 
-import java.util.Objects;
-
-public class GithubIssue implements Cloneable {
+public class GithubIssue {
 
     private int id;
 
@@ -39,35 +37,5 @@ public class GithubIssue implements Cloneable {
                 repository.getUser(),
                 repository.getName(),
                 this.getId());
-    }
-
-    @Override
-    protected Object clone() throws CloneNotSupportedException {
-        //깊은 복사 클론
-        GithubRepository repository = new GithubRepository();
-        repository.setUser(this.repository.getUser());
-        repository.setName(this.repository.getName());
-
-        GithubIssue githubIssue = new GithubIssue(repository);
-        githubIssue.setId(this.id);
-        githubIssue.setTitle(this.title);
-
-        return githubIssue;
-
-        //얕은 복사 클론
-        //return super.clone();
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        GithubIssue that = (GithubIssue) o;
-        return getId() == that.getId() && Objects.equals(getTitle(), that.getTitle()) && Objects.equals(getRepository(), that.getRepository());
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(getId(), getTitle(), getRepository());
     }
 }

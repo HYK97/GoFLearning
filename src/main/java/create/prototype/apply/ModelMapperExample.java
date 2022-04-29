@@ -1,8 +1,8 @@
 package create.prototype.apply;
 
 
-import create.prototype.before.GithubIssue;
-import create.prototype.before.GithubRepository;
+import create.prototype.after.GithubIssue;
+import create.prototype.after.GithubRepository;
 import org.modelmapper.ModelMapper;
 
 public class ModelMapperExample {
