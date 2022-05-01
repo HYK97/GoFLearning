@@ -12,6 +12,12 @@
 
 ### [4. Builder 패턴](https://github.com/HYK97/GoFLearning/tree/main/src/main/java/create/builder/builder.md)
 
-### [4. Prototype 패턴](https://github.com/HYK97/GoFLearning/blob/main/src/main/java/create/prototype/prototype.md)
+### [5. Prototype 패턴](https://github.com/HYK97/GoFLearning/blob/main/src/main/java/create/prototype/prototype.md)
 
 ###  구조패턴
+
+### [6. Adapter 패턴](https://github.com/HYK97/GoFLearning/blob/main/src/main/java/structural/adapter/adapter.md)
+
+### [7. Bridge 패턴](https://github.com/HYK97/GoFLearning/blob/main/src/main/java/structural/bridge/bridge.md)
+
+
