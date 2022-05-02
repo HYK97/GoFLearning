@@ -1,9 +1,6 @@
 package structural.bridge.apply;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 public class JdbcExample {
 
@@ -11,7 +8,7 @@ public class JdbcExample {
         Class.forName("org.h2.Driver");
 
         //driver ->  Implementation
-        //conn,statment preparedStatment resultset -> 추상화 Abstraction
+        //Connection,Statement, PreparedStatement ,ResultSet -> 추상화 Abstraction
 
         try (Connection conn = DriverManager.getConnection("jdbc:h2:~/test", "sa", "")) {
 
@@ -24,8 +21,8 @@ public class JdbcExample {
             Statement statement = conn.createStatement();
             statement.execute(sql);
 
-//            PreparedStatement statement1 = conn.prepareStatement(sql);
-//            ResultSet resultSet = statement.executeQuery(sql);
+            PreparedStatement statement1 = conn.prepareStatement(sql);
+            ResultSet resultSet = statement.executeQuery(sql);
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
