@@ -8,7 +8,7 @@ import java.util.Map;
  * flyWeight Factory 객체
  */
 public class FontFactory {
-    private Map<String, Font> cache = new HashMap<>();
+    private Map<String, Element> cache = new HashMap<>();
 
 
     /**
@@ -18,12 +18,12 @@ public class FontFactory {
      * @param font
      * @return
      */
-    public Font getFont(String font) {
+    public Element getFont(String font) {
         if (cache.containsKey(font)) {
             return cache.get(font);
         } else {
             String[] split = font.split(":");
-            Font newFont = new Font(split[0], Integer.parseInt(split[1]));
+            Element newFont = new Font(split[0], Integer.parseInt(split[1]));
             cache.put(font, newFont);
             return newFont;
         }

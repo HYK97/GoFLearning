@@ -2,13 +2,15 @@ package structural.flyweight.after;
 
 
 import lombok.Getter;
+import lombok.ToString;
 
 /**
- * flyWeight 클래스
+ * flyWeight Concrete 클래스
  * 불변객체여야함
  */
 @Getter
-public final class Font {
+@ToString
+public final class Font implements Element{
 
     // 모든 필드를 final로 생성해야댐
 
@@ -21,4 +23,9 @@ public final class Font {
         this.size = size;
     }
 
+
+    @Override
+    public void getInformation() {
+         System.out.println("FontFamily : "+ family + ", size : "+ size);
+    }
 }
