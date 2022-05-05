@@ -1,5 +1,6 @@
 package structural.proxy.apply;
 
+
 import structural.proxy.after.DefaultGameService;
 import structural.proxy.after.GameService;
 
@@ -15,11 +16,12 @@ public class ProxyInJava {
     private void dynamicProxy() {
         GameService gameServiceProxy = getGameServiceProxy(new DefaultGameService());
         gameServiceProxy.startGame();
+        gameServiceProxy.endGame();
     }
 
 
     /**
-     * 모든메서드를 오버라이드 해서 사용할수 없기 때문에 reflection을 이용해서 사용하면 간단하게 만들수 있다.
+     * 공통 부가기능은 모든메서드를 오버라이드할 필요없이 reflection을 이용해서 사용하면 간단하게 만들수 있다.
      *
      * @param target
      * @return

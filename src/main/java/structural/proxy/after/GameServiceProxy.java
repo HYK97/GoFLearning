@@ -1,7 +1,7 @@
 package structural.proxy.after;
 
 /**
- * 인터페이스가 있는 경우
+ * 인터페이스가 있는 경우(Proxy)
  */
 public class GameServiceProxy implements GameService {
 
@@ -15,6 +15,13 @@ public class GameServiceProxy implements GameService {
     public void startGame() {
         long before = System.currentTimeMillis();
         gameService.startGame();
+        System.out.println("시간 = " + (System.currentTimeMillis() - before));
+    }
+
+    @Override
+    public void endGame() {
+        long before = System.currentTimeMillis();
+        gameService.endGame();
         System.out.println("시간 = " + (System.currentTimeMillis() - before));
     }
 
