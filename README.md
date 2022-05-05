@@ -20,4 +20,14 @@
 
 ### [7. Bridge 패턴](https://github.com/HYK97/GoFLearning/blob/main/src/main/java/structural/bridge/bridge.md)
 
+### [8. Composite 패턴](https://github.com/HYK97/GoFLearning/blob/main/src/main/java/structural/composite/composite.md)
+
+### [9. Decorator 패턴](https://github.com/HYK97/GoFLearning/blob/main/src/main/java/structural/decorator/decorator.md)
+
+### [10. Facade 패턴](https://github.com/HYK97/GoFLearning/blob/main/src/main/java/structural/facade/facade.md)
+
+### [11. Flyweight 패턴](https://github.com/HYK97/GoFLearning/blob/main/src/main/java/structural/flyweight/flyweight.md)
+
+### [12. Proxy 패턴](https://github.com/HYK97/GoFLearning/blob/main/src/main/java/structural/proxy/proxy.md)
+
 
