@@ -1,6 +1,6 @@
 package create.abstract_factory.apply;
 
-import create.factorymethod.after.Ship;
+import create.factory_method.after.Ship;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

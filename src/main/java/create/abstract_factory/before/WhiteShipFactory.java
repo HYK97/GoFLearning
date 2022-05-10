@@ -1,9 +1,9 @@
 package create.abstract_factory.before;
 
 
-import create.factorymethod.after.Ship;
-import create.factorymethod.after.ShipFactory;
-import create.factorymethod.after.WhiteShip;
+import create.factory_method.after.Ship;
+import create.factory_method.after.ShipFactory;
+import create.factory_method.after.WhiteShip;
 
 public class WhiteShipFactory implements ShipFactory {
 

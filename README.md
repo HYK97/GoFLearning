@@ -6,9 +6,9 @@
 ###  생성패턴
 ### [1. Sigleton 패턴](https://github.com/HYK97/GoFLearning/blob/main/src/main/java/create/singleton/singleton.md)
 
-### [2. Factory Method 패턴](https://github.com/HYK97/GoFLearning/blob/main/src/main/java/create/factorymethod/factorymethod.md)
+### [2. Factory Method 패턴](https://github.com/HYK97/GoFLearning/blob/main/src/main/java/create/factory_method/factory_method.md)
 
-### [3. Abstract Factory 패턴](https://github.com/HYK97/GoFLearning/blob/main/src/main/java/create/abstract_factory/abstract%20factory.md)
+### [3. Abstract Factory 패턴](https://github.com/HYK97/GoFLearning/blob/main/src/main/java/create/abstract_factory/abstract_factory.md)
 
 ### [4. Builder 패턴](https://github.com/HYK97/GoFLearning/tree/main/src/main/java/create/builder/builder.md)
 
@@ -29,5 +29,6 @@
 ### [11. Flyweight 패턴](https://github.com/HYK97/GoFLearning/blob/main/src/main/java/structural/flyweight/flyweight.md)
 
 ### [12. Proxy 패턴](https://github.com/HYK97/GoFLearning/blob/main/src/main/java/structural/proxy/proxy.md)
+
 
 

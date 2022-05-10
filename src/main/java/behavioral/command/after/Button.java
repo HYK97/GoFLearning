@@ -11,8 +11,6 @@ public class Button {
     private Stack<Command> commands = new Stack<Command>();
 
     public Button() {
-
-
     }
 
     public void undo() {

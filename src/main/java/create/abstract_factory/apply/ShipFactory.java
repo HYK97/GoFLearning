@@ -1,7 +1,7 @@
 package create.abstract_factory.apply;
 
-import create.factorymethod.after.Ship;
-import create.factorymethod.after.WhiteShip;
+import create.factory_method.after.Ship;
+import create.factory_method.after.WhiteShip;
 import org.springframework.beans.factory.FactoryBean;
 
 public class ShipFactory implements FactoryBean<Ship> {
