@@ -31,4 +31,15 @@
 ### [12. Proxy 패턴](https://github.com/HYK97/GoFLearning/blob/main/src/main/java/structural/proxy/proxy.md)
 
 
+### 행동패턴
+
+### [13. Chain Of Responsibility 패턴](https://github.com/HYK97/GoFLearning/blob/main/src/main/java/behavioral/chain_of_responsibility/COF.md)
+
+### [14. Command 패턴](https://github.com/HYK97/GoFLearning/blob/main/src/main/java/behavioral/command/command.md)
+
+### [15. Interpreter 패턴](https://github.com/HYK97/GoFLearning/blob/main/src/main/java/behavioral/interpreter/interpreter.md)
+
+
+
+
 
