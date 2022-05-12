@@ -2,8 +2,6 @@ package behavioral.interpreter.after;
 
 import java.util.Stack;
 
-import static behavioral.interpreter.after.PostfixExpression.*;
-
 public class PostfixParser {
     public static PostfixExpression parse(String expression) {
         Stack<PostfixExpression> stack = new Stack<>();
@@ -13,20 +11,23 @@ public class PostfixParser {
         return stack.pop();
     }
 
-    /* private static PostfixExpression getExpression(char c, Stack<PostfixExpression> stack) {
-         switch (c) {
-             case '+':
-                 return new PlusExpression(stack.pop(), stack.pop());
-             case '-':
-                 PostfixExpression right = stack.pop();
-                 PostfixExpression left = stack.pop();
-                 return new MinusExpression(left, right);
-             default:
-                 return new VariableExpression(c);
-
-         }
-     }*/
     private static PostfixExpression getExpression(char c, Stack<PostfixExpression> stack) {
+        switch (c) {
+            case '+':
+                return new PlusExpression(stack.pop(), stack.pop());
+            case '-':
+                PostfixExpression right = stack.pop();
+                PostfixExpression left = stack.pop();
+                return new MinusExpression(left, right);
+            default:
+                return new VariableExpression(c);
+
+        }
+    }
+    /**
+     * class를 늘리지 않고 Lambda Expressions를 이용한 확장방법
+     * */
+  /*  private static PostfixExpression getExpression(char c, Stack<PostfixExpression> stack) {
         switch (c) {
             case '+':
                 return plus(stack.pop(), stack.pop());
@@ -38,5 +39,5 @@ public class PostfixParser {
                 return variable(c);
 
         }
-    }
+    }*/
 }
