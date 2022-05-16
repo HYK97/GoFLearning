@@ -1,4 +1,5 @@
 # GoFLearning
+### [백기선님의 디자인패턴](https://www.inflearn.com/course/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4)
 ## 목적
 - GoF 디자인 패턴을 직접 사용해보고 실무에서 어떻게 사용하는지 적용해보자
 
